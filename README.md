@@ -7,6 +7,7 @@ npm install
 npm run start-mockapi
 Load http://localhost:3001/users
 ```
+In case of any errors, manually create src/api folder next to buildScripts folder.
 
 ##Next Steps
 Generate PUT, POST, and DELETE requests against the mock API and note that changes are saved to db.json, so they're reflected on refresh like a real database exists! To see this in action, check out [Building a JavaScript Development Environment](http://app.pluralsight.com/author/cory-house) on Pluralsight.
