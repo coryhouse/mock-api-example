@@ -12,3 +12,7 @@ Load http://localhost:3001/users
 ## Next Steps
 
 Generate PUT, POST, and DELETE requests against the mock API and note that changes are saved to db.json, so they're reflected on refresh like a real database exists! To see this in action, check out [Building a JavaScript Development Environment](http://app.pluralsight.com/author/cory-house) on Pluralsight.
+
+## Hosting
+
+For hosting info, check out [json-server-heroku](https://github.com/jesperorb/json-server-heroku)
