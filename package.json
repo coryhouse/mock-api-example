@@ -7,7 +7,7 @@
     "node": "8.11.1"
   },
   "scripts": {
-    "prestart-mockapi": "node buildScripts/generateMockData",
+    "prestart": "node buildScripts/generateMockData",
     "start": "json-server --watch src/api/db.json --port $PORT"
   },
   "repository": {
