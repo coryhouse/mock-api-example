@@ -4,10 +4,8 @@
   "description": "Example of Mock API created in \"Building a JavaScript Development Environment\" on Pluralsight",
   "main": "index.js",
   "scripts": {
-    "generate-mock-data": "node buildScripts/generateMockData",
-    "prestart-mockapi": "npm run generate-mock-data",
-    "start-mockapi": "json-server --watch src/api/db.json --port 3001",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prestart-mockapi": "node buildScripts/generateMockData",
+    "start": "json-server --watch src/api/db.json --port 3001"
   },
   "repository": {
     "type": "git",

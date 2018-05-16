@@ -5,7 +5,7 @@ This is an example Mock API for rapid front-end development. I walk through how 
 ## Quick Start
 ```
 npm install
-npm run start-mockapi
+npm start
 Load http://localhost:3001/users
 ```
 
