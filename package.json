@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Example of Mock API created in \"Building a JavaScript Development Environment\" on Pluralsight",
   "main": "index.js",
+  "engines": {
+    "node": "8.11.1"
+  },
   "scripts": {
     "prestart-mockapi": "node buildScripts/generateMockData",
     "start": "json-server --watch src/api/db.json --port 3001"
