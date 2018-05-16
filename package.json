@@ -8,7 +8,7 @@
   },
   "scripts": {
     "prestart-mockapi": "node buildScripts/generateMockData",
-    "start": "json-server --watch src/api/db.json --port 3001"
+    "start": "json-server --watch src/api/db.json --port $PORT"
   },
   "repository": {
     "type": "git",
