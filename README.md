@@ -3,11 +3,10 @@
 This is an example Mock API for rapid front-end development. I walk through how to build this from scratch in [Building a JavaScript Development Environment](http://app.pluralsight.com/author/cory-house) on Pluralsight.
 
 ## Quick Start
-```
-npm install
-npm start
-Load http://localhost:3001/users
-```
+
+1. `npm install`
+2. `npm start`
+3. Load http://localhost:3001/users
 
 ## Next Steps
 
